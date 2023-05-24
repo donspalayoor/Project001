@@ -9,8 +9,11 @@ DataCo has commissioned the development of a real-time data pipeline for ingesti
 The data pipeline was designed in four main stages:
 
 2.1 Ingest clickstream data from Kafka
+
 2.2 Store the ingested data in the chosen data store with a defined schema
+
 2.3 Periodically process the stored clickstream data in the data store
+
 2.4 Index the processed data in Elasticsearch
 
 **3. Tools and technologies**
